@@ -17,7 +17,7 @@ Recommended System Requirements to train model.
 
     A good CPU and a GPU with atleast 8GB memory
     Atleast 8GB of RAM
-    Active internet connection so that keras can download inceptionv3/vgg16 model weights
+    Active internet connection so that keras can download vgg16 model weights
 
 Required libraries for Python :
 
