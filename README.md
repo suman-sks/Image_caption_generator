@@ -13,13 +13,13 @@ Flow of the project:
 - Predicting on test data
 - Evaluating the captions using BLEU scores as the metric.
 
-**Recommended System Requirements to train model. **
+**Recommended System Requirements to train model.**
 
 A good CPU and a GPU with atleast 8GB memory
 Atleast 8GB of RAM
 Active internet connection so that keras can download vgg16/inceptionV3 model weights
 
-Required libraries for Python :
+**Required libraries for Python :**
 
 - Python 
 - Numpy 
@@ -32,17 +32,17 @@ Required libraries for Python :
 ## Results    
 - Using VGG16 model + RNN with epochs 10 and optimizer 'Adam'
 `
-    BLEU-1: 0.542497
-    BLEU-2: 0.292949
-    BLEU-3: 0.193336
-    BLEU-4: 0.083422
+    - BLEU-1: 0.542497
+    - BLEU-2: 0.292949
+    - BLEU-3: 0.193336
+    - BLEU-4: 0.083422
     `
 - Using inceptionV3 model + RNN with epochs 10 and optimizer 'Adam'
 `
-    BLEU-1: 0.560461
-    BLEU-2: 0.304736
-    BLEU-3: 0.198677
-    BLEU-4: 0.086893`
+    - BLEU-1: 0.560461
+    - BLEU-2: 0.304736
+    - BLEU-3: 0.198677
+    - BLEU-4: 0.086893`
     
   ### Future Works:
   - Implementation of Beam Search Algorithm
